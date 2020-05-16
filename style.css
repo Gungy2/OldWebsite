@@ -2,8 +2,14 @@
   box-sizing: border-box;
 }
 
-body, html {
-  height: 100%;
+#top-decoration {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  height: 10px;
+  width: 100%;
+  background-image: url("/pictures/flag.png");
+  z-index: 100;
 }
 
 #first-page {
@@ -25,24 +31,30 @@ body, html {
   height: 100%;
 }
 
-#my-name {
+.intro {
   color: white;
-  padding-top: 13%;
   text-align: center;
   font-family: 'Roboto', sans-serif;
   font-size: 50px;
 }
 
-#student {
-  color: white;
-  text-align: center;
-  font-family: 'Roboto', sans-serif;
+#my-name {
+  padding-top: 13%;
+  letter-spacing: 2px;
+}
+
+.inst {
   font-weight: 100;
-  font-size: 50px;
+  letter-spacing: 1px;
 }
 
 #splitter {
   width: 250px;
   height: 5px;
   background-color: white;
+}
+
+.title {
+  position: absolute;
+  top: 5000px;
 }
