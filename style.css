@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+}
+
+body, html {
+  height: 100%;
+}
+
+#first-page {
+  background: linear-gradient(rgba(0, 34, 128, 0.733), rgba(0, 34, 128, 0.733)), url("/pictures/imperial.png");
+  
+  /* Box positiom */
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+
+  /* Background position */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  width: 100%;
+  height: 100%;
+}
+
+#my-name {
+  color: white;
+  padding-top: 13%;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 50px;
+}
+
+#student {
+  color: white;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  font-size: 50px;
+}
+
+#splitter {
+  width: 250px;
+  height: 5px;
+  background-color: white;
+}
